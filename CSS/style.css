@@ -1,0 +1,74 @@
+body {
+    background-color: whitesmoke;
+
+}
+.myBio{
+    background-color:#C0C0C0;
+    width:200px;
+    height:100px;
+    padding:100px ;
+    display: inline-block;
+}
+
+.myBio:hover {
+  background: lightpink;
+}
+
+.myPhoto{
+    background-color: #4863A0;
+    width:200px;
+    height:100px;
+    padding:100px ;
+    display: inline-block;
+    position: relative;
+    left:500px;
+}
+
+.myPhoto:hover {
+  background: lightcyan;
+}
+
+.eduHistory {
+    background-color:#77BFC7;
+    width:300px;
+    height:100px;
+    padding:100px ;
+    position: relative;
+    right:405px;
+    top: 300px;
+    display: inline-block;
+}
+
+.eduHistory:hover {
+  background: lightslategrey;
+}
+
+.contactMe{
+    background-color:#FFC0CB;
+    width:200px;
+    height:100px;
+    padding:100px ;
+    display: inline-block;
+    position: relative;
+     left:500px;
+    top: 300px;
+}
+
+.contactMe:hover {
+  background: lightskyblue;
+}
+
+.Hobbies{
+    background-color:cadetblue;
+    width:200px;
+    height:100px;
+    padding:100px ;
+    display: inline-block;
+    position: relative;
+    left:0px;
+    top: 300px;
+}
+
+.Hobbies:hover {
+  background: lightsalmon;
+}

@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ContactMe</title>
+</head>
+<body>
+	<h1>Contact Form</h1>
+	<p>
+        Feel free to reach out to me .<br />
+        Please follow the prompts below:
+    </p>
+    <form action="mailto:josephsteinson@gmail.com" method="post" enctype="multipart/form-data">
+        <div>
+            <label for="name">Name</label><br />
+            <input type="text" name="name" id="name" required placeholder="Type your name please"/>
+        </div><br />
+
+        <div>
+            <label for="email">Email-address</label><br />
+            <input type="email" name="email" id="email" required placeholder="Type here your email address"/>
+        </div><br />
+
+              <div>
+                  <label for="comment">
+                       Comment
+                  </label><br />
+                  <textarea id="comment" name="comment"></textarea>
+
+              </div>
+
+        <br /><br />
+
+        <button type="submit">
+            Submit
+        </button>
+        <button type="reset">
+            Clear form
+        </button>
+
+    </form>
+     <br> <br>
+    <a href="index.html">
+        &lt&lt Previous Page
+    </a>
+</body>
+</html>
